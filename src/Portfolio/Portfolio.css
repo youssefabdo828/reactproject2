@@ -1,0 +1,27 @@
+.portfolio .header-text{
+    color: rgb(44, 62, 80);
+}
+
+.portfolio .line{
+        background-color: rgb(44, 62, 80);
+}
+
+.portfolio{
+    min-height: 87vh;
+    margin-top: 100px;
+}
+
+.portfolio .layer{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.575)
+}
+
+.layer:hover{
+    opacity: 1;
+}

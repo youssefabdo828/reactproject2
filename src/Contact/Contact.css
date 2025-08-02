@@ -1,0 +1,42 @@
+.contact .line{
+    background-color: rgb(44, 62, 80);
+}
+
+.contact h2{
+        color: rgb(44, 62, 80);
+}
+
+.contact i{
+        color: rgb(44, 62, 80);
+}
+
+.contact{
+    min-height: 87vh;
+    margin-top: 100px;
+}
+
+label{
+transition: .6s  all ;
+margin-bottom: 7px;
+color: #1abc9c;
+opacity: 1;
+}
+
+#contact .top{
+opacity: 0;
+    transition: .6s top;
+}
+
+#contact .form-control:focus{
+    border-color: white;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem white;
+}
+
+.contact form button{
+    background-color: #1abc9c;
+}
+
+.contact form button:hover{
+    background-color: #1abc9c;
+}
